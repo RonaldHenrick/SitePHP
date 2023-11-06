@@ -1,5 +1,5 @@
-<div style="background-image: url(img/fundo-texturizado-cristal-cinza-e-branco_53876-86343.avif);">
-  <center><h1>Nossos serviços</h1></center>
+<div>
+  <center><h1>Cursos Disponíveis</h1></center>
   <h3 style="font-size: 20px">Oferecemos divesar maneiras de lhe auxiliar no seu desenvolvimento como desenvolvedor tanto com conteúdos práticos como teóricos</h3>
   <p style="font-size: 20px;">
   Mentoria Personalizada: Conecte-se com mentores experientes que podem orientar você em sua jornada de desenvolvimento, respondendo a perguntas, dando dicas e oferecendo insights valiosos.<br>

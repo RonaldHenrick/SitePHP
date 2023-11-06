@@ -1,4 +1,4 @@
-<div style="background-image:url(img/fundo-texturizado-cristal-cinza-e-branco_53876-86343.avif)">
+<div>
 <center><h1>Fale Conosco</h1></center><hr>
 <p>Use esse espaço para tirar todas as suas dúvidas conosco</p>  
 <br>
