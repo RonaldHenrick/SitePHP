@@ -1,5 +1,6 @@
 <div style="background-image:url(img/fundo-texturizado-cristal-cinza-e-branco_53876-86343.avif);">
   <center><h1>Bem Vindo a DevMentor</h1></center>
+  <img src="imagens/programming.jpg" alt="imagem" id="imagem">
   <p style="font-size: 20px;">
 Você é um programador iniciante em busca de orientação, inspiração e recursos para acelerar seu crescimento na área de desenvolvimento?
  <br>Você veio ao lugar certo!<br>

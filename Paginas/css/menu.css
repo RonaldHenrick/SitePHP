@@ -8,7 +8,7 @@ h1{
 }
 a{
   font-size: 20px;
-  border: 2px solid purple;
+  border: 2px solid #9400D3;
   border-radius: 10px;
   background-color: white;
   text-decoration: none;
@@ -16,10 +16,13 @@ a{
   justify-content: center;
 }
 .menu{
-  background-color: darkcyan;
+  background-color: #9400D3;
 }
 .rodape{
-  background-color: black;
+  background-color: #9400D3;
   display: flex;
 
+}
+#imagem{
+  width: 600px;
 }
