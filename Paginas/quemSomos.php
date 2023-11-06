@@ -1,4 +1,4 @@
-<div style="background-image:url(img/fundo-texturizado-cristal-cinza-e-branco_53876-86343.avif);">
+<div id="main">
   <center><h1>Bem Vindo a DevMentor</h1></center>
   <img src="imagens/programming.jpg" alt="imagem" id="imagem">
   <p style="font-size: 20px;">
