@@ -1,8 +1,8 @@
 <?php 
 $name = $_REQUEST['nameCliente'];
 $number = $_REQUEST['numberCliente'];
-$email = $_REQUEST['emailCliente'];
-$text = $_REQUEST['textoCliente'];
+$user_type = $_REQUEST['user_type'];
+
 
 function salvarDados($value1, $value2, $value3, $value4){
   $arquivo = fopen('dadosDoCliente.txt', "a");
@@ -14,18 +14,6 @@ function salvarDados($value1, $value2, $value3, $value4){
 
   fclose($arquivo);
 }
-
-function imprimirDados(){
-  $arquivo = fopen("dadosDoCliente.txt", "r");
-
-  while(!feof($arquivo)){
-    $values = fgets($arquivo);
-
-    echo "<p>$values</p>";
-
-    fclose($arquivo);
-  }
-}
 salvarDados($name,$number,$email,$text);
-imprimirDados();
+
 ?>
