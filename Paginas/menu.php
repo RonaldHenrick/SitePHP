@@ -1,6 +1,6 @@
-<link rel="stylesheet" href="css/menu.css">
+<link rel="stylesheet" href="menu.css">
+<h1 class="menu-color">Menu</h1>
 <div class="menu"
-<center><h1>Menu</h1></center>
   <a href="?pg=quemSomos">Quem Somos</a><br>
   <a href="?pg=cursos">Cursos</a><br>
   <a href="?pg=faleConosco">Fale Conosco</a>

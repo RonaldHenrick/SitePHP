@@ -16,12 +16,16 @@ a{
   justify-content: center;
 }
 .menu{
-  background-color: #9400D3;
+  background-color: whitesmoke;
 }
 .rodape{
   background-color: #9400D3;
   display: flex;
 
+}
+.menu-color{
+  background-color: #F4FF69;
+  width: 88px;
 }
 #imagem{
   width: 700px;
