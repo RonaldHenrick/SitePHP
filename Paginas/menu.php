@@ -3,5 +3,5 @@
 <div class="menu">
   <a href="?pg=quemSomos">Quem Somos</a><br>
   <a href="?pg=cursos">Cursos</a><br>
-  <a href="?pg=faleConosco">Fale Conosco</a>
+  <a href="?pg=login">Login</a>
 </div>
