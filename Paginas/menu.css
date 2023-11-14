@@ -37,26 +37,41 @@ p{
 
 a{
   font-size: 20px;
-  border: 2px solid #9400D3;
+  border: 2px solid white;
   border-radius: 10px;
-  background-color: white;
+  background-color: black;
   text-decoration: none;
-  display: flex;
-  justify-content: center;
+  color: #F4FF69;
+  padding: 8px;
 }
  
 .topo {
   border-width: 30px;
-  text-align: left;
   font-size: 46px;
-  background-color: #9400d3a3;
   padding: 24px 60px 24px 60px;
-  position: relative;
+  width: 250px;
+  height: 80px;
+  
+}
+.position-topo{
+  background-color: #F4FF69;
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }
 
-.menu-color {
-  text-align: center;
-  background-color: whitesmoke;
+.menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F4FF69;
+}
+.menu-name{
+  padding-top: 10px;
+}
+.menu-options{
+  display: flex;
+  padding: 10px;
 }
 
 .main{
@@ -68,7 +83,7 @@ a{
 .rodape{
   align-items: center;
   height: 185px;
-  background-color: #9400D3;
+  background-color: #F4FF69;
 }
 
 #imagem{
