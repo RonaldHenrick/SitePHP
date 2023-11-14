@@ -15,5 +15,5 @@ $senha = "";
 
 
 //Selecionar BD
-$bd = mysqli_select_db($conn, "projeto");
+$bd = mysqli_select_db($conn, "mysql");
 ?>
