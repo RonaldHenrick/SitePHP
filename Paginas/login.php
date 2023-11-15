@@ -1,5 +1,5 @@
 <div>
-<center><h1>Login</h1></center><hr>
+<center><h1>Login</h1></center>
 <br>
 <form action="receberForm.php" method="post" style="font-size: 20px;">
     <label for="name">Nome</label>

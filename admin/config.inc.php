@@ -7,8 +7,6 @@ $conn = mysqli_connect("localhost","root", "");
     echo "Conexão com o servidor bem sucedida!";
   }
 */
-
-
 //Selecionar BD
-$bd = mysqli_select_db($conn, "mysql");
+$bd = mysqli_select_db($conn, "test");
 ?>

@@ -5,8 +5,9 @@
   </div>
   <div class="menu-options">
     <a href="?pg=quemSomos">Quem Somos</a><br>
-    <a href="?pg=cursos">Cursos</a><br>
+    <a href="?pg=posts">Posts</a><br>
     <a href="?pg=login">Login</a>
+    <a href="../admin/login.php">Admin</a>
   </div>
 </div>
 

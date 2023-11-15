@@ -1,5 +1,5 @@
 <?php
-  include_once("../config.inc.php");
+  include_once("config.inc.php");
 
   $titulo = $_REQUEST['titulo'];
   $texto = $_REQUEST['texto'];
