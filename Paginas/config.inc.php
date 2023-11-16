@@ -10,5 +10,5 @@ $conn = mysqli_connect("localhost","root", "");
 
 
 //Selecionar BD
-$bd = mysqli_select_db($conn, "mysql");
+$bd = mysqli_select_db($conn, "test");
 ?>

@@ -4,14 +4,14 @@
   $titulo = $_REQUEST['titulo'];
   $texto = $_REQUEST['texto'];
 
-  $sql = "INSERT INTO pagina(titulo,texto)
+  $sql = "INSERT INTO post(titulo,texto)
           VALUES ('$titulo', '$texto')";
 
   $inserir = mysqli_query($conn, $sql);
 
   if($inserir){
-    echo "Cadastro realizado com sucesso!";
+    echo "Post realizado com sucesso!";
   }else{
-    echo "Cadastro não realizado. Houve algum problema";
+    echo "Post não realizado. Houve algum problema";
   }
 ?>
