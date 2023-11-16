@@ -81,9 +81,16 @@ a{
 }
 
 .rodape{
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
   align-items: center;
-  height: 185px;
+  height: 100px;
   background-color: #F4FF69;
+}
+
+.informacoes-contato{
+  position: relative;
 }
 
 #imagem{
@@ -99,7 +106,9 @@ a{
 }
 
 .div-direita{
-  float: right;
-  width: 150px;
-  height: 150px;
+  display: flex;
+  padding: 15px;
+  position: absolute;
+  top: 980px;
+  left: 900px;
 }
