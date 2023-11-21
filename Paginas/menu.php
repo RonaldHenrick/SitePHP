@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="menu.css">
 <div class="menu">
   <div class="menu-name">
-  <h1>Olá</h1>
+  <h1>Bem-Vindo ao DevMentor</h1>
   </div>
   <div class="menu-options">
     <a href="?pg=quemSomos">Quem Somos</a><br>
