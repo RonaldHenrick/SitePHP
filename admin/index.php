@@ -23,6 +23,7 @@
                     <li><a href="listarUsuarios.php">Listar Usuários</a></li>
                     <li><a href="post.php">Inserir Nova Página</a></li>
                     <li><a href="listarPost.php">Excluir Post</a></li>
+                    <li><a href="atualizar.php">Atualizar Post</a></li>
                 </ol>
             </div>
         </div>
