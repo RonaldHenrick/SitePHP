@@ -1,0 +1,38 @@
+ul {
+    list-style-type: none;
+    padding: 10px 20px 10px 20px;
+}
+li {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+li:last-child {
+    border-bottom: none;
+}
+ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+a {
+    color: red;
+    text-decoration: none; 
+}
+.dev-1{
+    text-align: center;
+}
+h1 {
+    text-align: center; 
+    background-color:#F4FF69;
+    margin: 0px;
+    padding: 20px 20px 20px 20px;
+    height: 10vh;
+}
+.table-1{
+    background-color:blue;
+}
+
+
