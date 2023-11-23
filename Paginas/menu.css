@@ -37,7 +37,7 @@ p{
 
 a{
   font-size: 20px;
-  border: 2px solid white;
+  border: 2px solid #F4FF69;
   border-radius: 10px;
   background-color: black;
   text-decoration: none;
@@ -74,15 +74,28 @@ a{
   padding: 10px;
 }
 
+#quemsomos_1{
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  /* topo, direita, baixo, esquerda */
+  padding: 24px 80px 120px 80px;
+  position: relative;
+}
+
+#texto{
+  background-color: #f8ff93;
+  align-items: center;
+  gap: 32px;
+  /* topo, direita, baixo, esquerda */
+  padding: 15px 70px 50px 70px;
+  border-radius: 10px;
+}
+
 .main{
   align-items: center;
   width: 700px;
   height: 400px;
-}
-
-.rodape{
-  height: 100px;
-  background-color: #F4FF69;
 }
 
 #imagem{
@@ -94,7 +107,6 @@ a{
 .logo-reduzida{
   width: 50px;
 }
-
 .div-direita{
   display:flex;
   padding: 15px;
@@ -102,6 +114,10 @@ a{
   align-items: center;
   top: 100px;
   left: 100px;
+}
+.rodape{
+  height: 100px;
+  background-color: #F4FF69;
 }
 
 .login-1{
