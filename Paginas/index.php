@@ -3,7 +3,7 @@
   include_once("menu.php");
 
   if(empty($_SERVER["QUERY_STRING"])){
-    $var = "conteudo.php";
+    $var = "quemSomos.php";
     include_once("$var");
   }else{
     $pg = $_GET['pg'];

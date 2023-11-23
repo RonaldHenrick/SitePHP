@@ -9,19 +9,12 @@ $todos = mysqli_query($conn ,$busca);
 
 ?>
 
-<table border="1px">
-  <tr>
-    <td>Id</td>
-    <td>Título</td>
-    <td>Conteúdo</td>
-  </tr>
   <?php while ($dados=mysqli_fetch_array($todos)) {?>
-    
+    <div class="post-decoretion">
     <tr>
-        <td><?=$dados['id'];?></td>
-        <td><?=$dados['titulo'];?></td>
-        <td><?=$dados['texto'];?></td>
+        <td><center><?=$dados['titulo'];?></center></td>
+        <td><center><?=$dados['texto'];?></center></td>
     </tr>
+    </div>
     <?php } ?>
-</table>
 </div>
