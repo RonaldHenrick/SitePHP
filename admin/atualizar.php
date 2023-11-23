@@ -1,6 +1,11 @@
-
-<form action="atualizarBanco.php" method="post"> 
-<table>
+<link rel="stylesheet" href="atualizar.css">
+<div class="banco-1">
+<footer>
+  <form action="atualizarBanco.php" method="post">
+<div class="table-container">
+<div class="table-box">
+    <h2>Atualizar</h2>
+  <table>
     <tr>
         <td>Id: </td>
         <td><input name="id" id="id" type="text"/></td>
@@ -15,7 +20,11 @@
     </tr>
     <tr>
         <td></td>
-        <td><button name="Enviar">Atualizar</button></td>
+        <td><button type="Enviar">Atualizar</button></td>
     </tr>
-</table>
-</form>
+  </table>
+  </form>
+  </div>
+  </div>
+</footer>
+</div>

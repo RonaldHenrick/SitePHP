@@ -1,3 +1,8 @@
+.banco-1{
+    background-color: #F4FF69;
+
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -6,51 +11,56 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #f2f2f2;
+    background-color: #F4FF69;
   }
-  .login-container {
+  
+  .table-container {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
   }
-  .login-box {
+  
+  .table-box {
     width: 300px;
-    background: #F4FF69;
+    background: #3e3e3e;
     padding: 40px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(50, 50, 50, 0.1);
     border-radius: 8px;
     text-align: center;
   }
-  .login-box h2 {
+  
+  .table-box h2 {
     margin-bottom: 20px;
-    color: #333;
+    color: #F4FF69;
   }
+  
   form {
     display: flex;
     flex-direction: column;
   }
-  label {
+  
+  tr {
     margin-bottom: 8px;
-    color: #333;
+    color: #ffffff;
   }
+  
   input {
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid #ffffff;
+    border: 1px solid #000000;
     border-radius: 4px;
     outline: none;
   }
+  
   input[type="submit"] {
-    background-color: rgb(246, 246, 246)e6e;
-    color: #e1e1e1;
+    background-color: #000000;
+    color: #ff0000;
     cursor: pointer;
     transition: background-color 0.3s;
   }
+  
   input[type="submit"]:hover {
-    background-color: #2b2b2b;
-  }
-
-.banco-1{
- background-color: #F4FF69;
+    background-color: #555;
 }
+  

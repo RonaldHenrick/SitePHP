@@ -1,9 +1,9 @@
 <div class="login-2">
 <center><h1>Área de Login</h1></center>
 </div>
-<div class="login-container">
-    <div class="login-box">
-<form action="autenticar.php" method="post" style="font-size: 20px;">
+<div class="login-3">
+  <div class="login-box">
+    <form action="autenticar.php" method="post" style="font-size: 20px;">
     <label for="name">Nome:</label>
     <input type="text" name="nameCliente" id="nameCliente">
     <br>
@@ -17,6 +17,6 @@
     <div class="button">
     <button type="submit" style="border-radius: 10px; width: 150px; height: 50px">Enviar</button>
     </div>
-    <br>
-  </form>
+    </form>
+  </div>
 </div>
